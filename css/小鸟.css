@@ -1,0 +1,709 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+nav {
+	width: 100%;
+	height: 118px;
+	background: #332347;
+}
+body{background: #f1f2f6;}
+.nav_con {
+	width: 1105px;
+	height: 118px;
+	margin: 0 auto;
+}
+
+.left {
+	width: 310px;
+	height: 118px;
+	float: left;
+	background: url(../image/logo.png);
+	background-size: 100% 100%;
+}
+
+.right {
+	width: 680px;
+	height: 118px;
+	float: right;
+}
+
+.right ul li {
+	width: 113px;
+	height: 118px;
+	float: left;
+	line-height: 118px;
+	text-align: center;
+	font-size: 14px;
+	position: relative;
+	z-index: 999;
+}
+
+.right ul li a {
+	color: white;
+}
+
+.ico {
+	width: 16px;
+	height: 16px;
+	border: 1px solid white;
+	display: inline-block;
+	float: right;
+	border-radius: 50%;
+	position: absolute;
+	right: 0;
+	top: 50px;
+	background: url(../image/nav_xiajiantou.png) -4px -4px no-repeat;
+}
+
+/*.right ul li:hover .under {
+	display: block;
+}*/
+
+.under {
+	width: 200px;
+	height: 250px;
+	background: #332347;
+	margin-left: -30px;
+	margin-top: -22px;
+	display: none;
+}
+
+.under1 {
+	height: 120px;
+}
+
+.under a {
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+	padding-left: 28%;
+	box-sizing: border-box;
+}
+
+.under a span {
+	float: right;
+	margin-right: 20px;
+	/*display: none;*/
+}
+
+/*banner*/
+.banner{
+	width: 100%;
+	height: 589px;
+	background: url(../image/banner02_bg.jpg)no-repeat;
+	background-size:100% 100%;
+	position: relative;
+}
+.img1{position: absolute;left: 500px;top: 55px;}
+.img2{position: absolute;left: 514px;top: 181px;}
+.img3{position: absolute;left: 294px;top: 166px;}
+
+/*公司简介*/
+.sec1{
+	width: 100%;
+	height: 871px;
+	/*background: bisque;*/
+}
+.main{
+	width: 1105px;
+	height: 100%;
+	/*background: beige;*/
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.sec1-top{
+	width: 58px;
+	height: 58px;
+	/*background: red;*/
+	position: absolute;left: 50%;top: 5%;
+}
+.tit{
+	width: 226px;
+	height: 129px;
+	/*background: red;*/
+	position: absolute;left: 466px;top: 146px;
+}
+.tit1{
+	font-size: 54px;
+  	font-family: "STKaiti";
+  	color: rgb( 49, 24, 89 );
+  	z-index: 283;
+}
+.tit2{
+	font-size: 29px;
+  	font-family: "STKaiti";
+  	color: rgb( 49, 24, 89 );
+  	z-index: 283;
+  	margin-left: 20px;
+}
+.tit3{margin-left: 92px;}
+.text{
+	width: 1035px;
+	height: 448px;
+	/*background: beige;*/
+	margin-top: 300px;
+	margin-left: 35px;
+}
+.cil{
+	width: 22px;
+	position: absolute;left: 0px;
+}
+.t-left{
+	width: 372px;
+	height: 100%;
+	display: inline-block;
+	/*float: left;*/
+	position: absolute;left: 80px;
+}
+.t-right{
+	width: 630px;
+	height: 100%;
+	float: right;
+	display: inline-block;
+	/*background: yellow;*/
+	position: absolute;right: 0px;
+}
+.t-tit{
+	font-size: 25px;
+	color: #443166;
+	font-family: "STKaiti";
+}
+.t-tit1{height: 107px;margin-top: 30px;}
+.t-tit11{float:left;}
+.t-tit12{
+	width:471px;
+	height:107px;
+	float:right;
+	}
+.gs{
+	font-size: 30px;
+  	font-family: "STKaiti";
+  	color: rgb( 49, 24, 89 );
+}
+.gss{
+	font-size: 14px;
+  	font-family: "STKaiti";
+  	color: rgb( 107, 106, 111 );
+}
+.contacts-line{
+	width: 100%;
+	height: 3px;
+	margin-top: 36px;
+	background: url(../image/next&prev_line.png);
+	background-size: 100%;
+	position: relative;
+}
+.prev{position: absolute;left: 0px;top: -15px;}
+.next{position: absolute;right: 0px;top:-15px}
+.US{
+	width:546px;
+	height: 63px;
+	margin-top: 25px;
+}
+.us{
+	font-size: 14px;
+  	font-family: "STKaiti";
+  	color: rgb( 107, 106, 111 );
+}
+.study{
+	width: 211px;
+	height: 60px;
+	/*background: red;*/
+	margin-left:418px;
+	margin-top: 57px;
+	position: relative;
+}
+.xue{
+	font-size: 18px;
+  	font-family: "STKaiti";
+  	color: rgb( 107, 106, 111 );
+  	line-height: 60px;
+  	text-align: center;
+}
+.s-l{position: absolute;left: 0;top: 0;}
+.s-r{position: absolute;right: 0;bottom: 0;}
+
+/*主要产品*/
+.sec2{
+	width: 100%;
+	height:923px;
+	background: url(../image/mokuai02_bg.jpg)no-repeat;
+	/*background-size: 100%;*/
+}
+.main2{
+	width: 1105px;
+	height: 923px;
+	/*background:cyan;*/
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.sec2-tit{
+	width: 226px;
+	height: 129px;
+	/*background: red;*/
+	position: absolute;left: 466px;top: 75px;
+}
+.tit1-2{
+	font-size: 54px;
+  	font-family: "STKaiti";
+  	color: #FFFFFF;
+  	z-index: 283;
+}
+.tit2-2{
+	font-size: 29px;
+  	font-family: "STKaiti";
+  	color: #FFFFFF;
+  	z-index: 283;
+  	margin-left: 44px;
+}
+.tit3-2{margin-left: 92px;}
+.sec2-m{
+	width: 100%;
+	height: 187px;
+	margin-top: 247px;
+	/*background: yellow;*/
+}
+.line{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.line div{
+	width: 147px;
+	height: 2px;
+	background: #443166;
+	float: left;
+	margin-top: 97px;
+}
+.line li{
+	width: 12px;
+	height: 12px;
+	background: #363048;
+	float: left;
+	margin-top: 92px;
+	border-radius: 50%;
+	
+}
+.pw{
+	font-size: 18px;
+  	font-family: "STKaiti";
+  	color:#bca9d7;
+}
+.p1{position: absolute;top: 33px;left: 99px;}
+.p2{position: absolute;top:137px;left: 102px;}
+.p3{position: absolute;top:33px;left: 268px;}
+.p4{position: absolute;top:137px;left: 264px;}
+.p5{position: absolute;top:33px;left: 413px;}
+.p6{position: absolute;top:137px;left: 422px;}
+.p7{position: absolute;top:33px;left: 572px;}
+.p8{position: absolute;top:137px;left: 579px;}
+.p9{position: absolute;top:33px;left: 728px;}
+.p10{position: absolute;top:137px;left: 735px}
+.p11{position: absolute;top:33px;right: 99px;}
+.p12{position: absolute;top:137px;right: 74px;}
+
+.jt{
+	margin-top: 50px;
+	margin-left: 264px;
+}
+.text2{
+	width: 1035px;
+	height: 448px;
+	/*background: beige;*/
+	margin-top: 30px;
+	margin-left: 35px;
+}
+
+/*业务范围*/
+.sec3{
+	width: 100%;
+	height: 1352px;
+}
+.main3{
+	width: 1105px;
+	height: 100%;
+	/*background: bisque;*/
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+}
+.scroll{
+	font-size: 16px;
+  	font-family: "Arial";
+ 	color: rgb( 153, 153, 153 );
+ 	position: absolute;
+   left: 48%;
+   top: 20px;
+}
+.hulu{
+	position: absolute;top: 45px;left: 50%;
+}
+.N{
+	width: 100%;
+	height: 122px;
+	/*background: yellow;*/
+	position: relative;
+}
+.one{margin-top: 305px;}
+.number{
+	position: absolute;left: 0px;
+	font-size: 90px;
+  	font-family: "SimSun";
+  	color: rgba( 107, 106, 111, 0.502 );
+}
+.N-w{position: absolute;left: 298px;top: 20px;}
+.w{
+ font-size: 23.927px;
+  font-family: "STKaiti";
+  color: rgb( 93, 85, 111 );
+}
+.ww{
+font-size: 13.957px;
+  font-family: "STKaiti";
+  color: rgb( 93, 85, 111 );
+}
+.busi{position: absolute;left:519px;top: 0px;}
+.US2{position: absolute;right: 108px;top: 23px;}
+.circle{position: absolute;right: 0px;top: 23px;}
+.two{margin-top: 60px;}
+.three{margin-top: 100px;}
+.y{
+	font-size: 13.957px;
+  font-family: "STKaiti";
+  color: rgb( 107, 106, 111 );
+  text-indent: 46px;
+  /*background: orange;*/
+  margin-top: 30px;
+	margin-left: 200px;
+}
+.yun1{
+	width:816px;
+	height: 71px;
+}
+.yun2{
+	width: 816px;
+	height: 44px;
+}
+.yun3{
+	width:452px;
+	height:160px;
+	position: relative;
+}
+.yun3 li{
+	margin-top: 15px;
+}
+.blue{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	/*background: white;*/
+	border: 2px solid #2999d6;
+	display: inline-block;
+	position: absolute;left: 0px;	
+}
+
+/*团队介绍*/
+.sec4{
+	width: 100%;
+	height: 622px;
+}
+.main4{
+	width: 1105px;
+	height: 100%;
+	/*background: beige;*/
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+}
+.person{
+	width:100%;
+	height:185px;
+	/*background: yellow;*/
+	margin-top: 400px;
+}
+.per-left{
+	width: 533px;
+	height: 100%;
+	/*background: salmon;*/
+	float: left;
+	position: relative;
+	border: 1px solid #d9d9e1;
+}
+.per-right{
+	width: 533px;
+	height: 100%;
+	/*background: salmon;*/
+	float:right;
+	position: relative;
+	border: 1px solid #d9d9e1;
+}
+.man1{
+	width: 156px;
+	height: 156px;
+	/*background: gray;*/
+	position: absolute;top: -60px;left: 29px;
+	background: url(../image/team_img02.png);
+}
+.man1-z{position: absolute;top: -60px;left: 29px;}
+.per-w{
+  font-family: "STKaiti";
+  color: rgb( 93, 85, 111 );
+  position: absolute;top:110px;left:33px;
+  text-align: center;
+}
+.per-w1{font-size: 23.927px;}
+.per-w3{
+	width: 231px;
+	height:73px;
+	position: absolute;
+	/*background: burlywood;*/
+	position: absolute;top: 25px;right:93px;
+	font-size: 15.61px;
+  font-family: "STKaiti";
+  color: rgb( 131, 131, 134 );
+}
+.email{
+	width:250px ;
+	height: 48px;
+	background: #e7e8ec;
+	border: 1px solid #d9d9e1;
+	position: absolute;bottom: 10px;right: 75px;
+}
+.icons{background:  #d9d9e1 url(../image/lianxi_icons.png)no-repeat;}
+.em{
+	display: inline-block;
+	width:46px ;
+	height: 49px;
+	background-position: -29px 14px;
+}
+.send{
+	width:203px ;
+	height: 49px;
+	position: relative;
+	margin-top: -46px;
+	margin-left: -4px;
+	display: inline-block;
+	text-align: center;
+	line-height: 48px;
+	font-size: 15.61px;
+  font-family: "STKaiti";
+  color: rgb( 95, 76, 130 );
+ }
+.blue2{
+	width:47px;
+	height:100%;
+	background: #2999d6;
+	position: absolute;right: 0px;top: 0px;
+}
+.blue2 img{
+	margin-left: 14px;
+	margin-top: -33px;
+}
+.buding{
+	width: 46px;
+	height: 46px;
+	background: white;
+	position: absolute;top:-46px;right:0px ;
+}
+
+/*合作机构*/
+.sec5{
+	width: 100%;
+	height:905px;
+	background: white;
+}
+.main5{
+	width: 1105px;
+	height: 100%;
+	/*background: bisque;*/
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+}
+.sec5-top{
+	width: 100%;
+	height: 20px;
+	background: url(../image/hezuo_topbg.png)no-repeat;
+}
+.f{
+	width: 552px;
+	height:512px;
+	/*background: salmon;*/
+	margin-top:300px;
+}
+.sec5-left{
+	float: left;
+}
+.sec5-right{
+	float: right;
+}
+.l-tit1{
+	font-size: 35.123px;
+  font-family: "STKaiti";
+  color: rgb( 95, 76, 130 );
+}
+.l-tit2{
+	font-size: 18px;
+  font-family: "Arial";
+  color: rgb( 49, 24, 89 );
+}
+.sec5-img1{
+	width:100%;
+	height:288px;
+	margin-top: 10px;
+	/*background: yellow;*/
+}
+.sec5-img1 li{
+	float: left;
+	width: 157px;
+	height: 87px;
+	margin-left: 26px;
+	margin-top: 50px;
+}
+.sec5-img1 li:first-child{margin-left: 0px;}
+.sec5-img1 li:nth-child(4){margin-left: 0px;}
+.sec5-img1 li:nth-child(7){margin-left: 0px;}
+.sec5-bottom{
+	width: 100%;
+	height: 20px;
+	background: url(../image/hezuo_bottombg.png)no-repeat;
+	position: absolute;bottom: 0px;
+}
+.sec6{
+	width: 100%;
+	height: 842px;
+}
+.main6{
+	width: 1105px;
+	height: 100%;
+	/*background: bisque;*/
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+}
+.sec6-footer{
+	width: 100%;
+	height: 182px;
+	/*background: beige;*/
+	position: absolute;bottom: 50px;
+}
+.f1{
+	/*width: 101px;*/
+	/*height: 101px;*/
+	float: left;
+	margin-top: 15px;
+	display: inline-block;
+	position: relative;
+}
+.f1 img{
+	display: inline-block;
+	position: absolute;left: 0px;top: 10px;
+}
+.adress{
+	width: 237px;
+	height: 152px;
+	/*background: yellow;*/
+	display: inline-block;
+	/*margin-top: 10px;*/
+	position: absolute;left: 126px;top: 0px;
+}
+.dizhi{
+	font-size: 23.207px;
+  font-family: "STKaiti";
+  color: rgb( 95, 76, 130 );
+}
+.dizhi2{
+	font-size: 17.405px;
+  font-family: "STKaiti";
+  color: rgb( 82, 77, 92 );
+  margin-top: 15px;
+}
+.dash{
+	width: 237px;
+	height: 2px;
+	z-index: 999;
+}
+.dash img{
+	display: inline-block;
+	margin-top: 20px;
+	width: 100%;
+}
+.f2{
+	/*width: 101px;*/
+	/*height: 101px;*/
+	float: left;
+	margin-top: 15px;
+	display: inline-block;
+	position: relative;
+	margin-left: 377px;
+}
+.f2 img{
+	display: inline-block;
+	position: absolute;left: 0px;top: 10px;
+}
+.zong{
+	font-size: 17.405px;
+  font-family: "STKaiti";
+  color: rgb( 82, 77, 92 );
+  margin-top: 60px;
+}
+.f3{
+	/*width: 101px;*/
+	/*height: 101px;*/
+	float: right;
+	margin-top: 15px;
+	display: inline-block;
+	position: relative;
+	margin-right: 351px;
+}
+.f3 img{
+	display: inline-block;
+	position: absolute;left: 0px;top: 10px;
+}
+.sec7{
+	width: 100%;
+	height: 437px;
+	background: url(../image/map_02.png)no-repeat;
+	background-size: 100%;
+	z-index: 999;
+	/*margin-top: -5px;*/
+	position: relative;
+}
+.sec7-map img{
+	width: 100%;
+}
+/*尾部*/
+.footer{
+	width: 100%;
+	height: 346px;
+	background: url(../image/yinyue_bg.jpg)no-repeat;
+	margin-top: -5px;
+}
+.main8{
+	width: 1105px;
+	height: 100%;
+	margin: auto;
+}
+/*.main8  li{
+	width: 57px;
+	height: 57px;
+	float: left;
+	border-radius: 50%;
+	border: 1px solid red;
+}*/

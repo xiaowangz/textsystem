@@ -1,0 +1,97 @@
+addClass    添加类名
+removeClass  删除类名
+find 找到对应的子元素
+filter  过滤
+:eq(index) 通过index索引找到对应的
+attr：一个参数时，为取值
+           两个参数时，为赋值
+：odd  奇数index行
+：even 偶数index行
+index  对应元素的索引值
+html()相当于js的innerHTML
+css  设置dom节点的css样式
+has  包含  父子
+not  没有 同级
+next   下一个  同级
+prev   上一个  同级
+width    元素本身宽度
+innerWidth  元素本身宽度+padding
+outerWidth 元素本身宽度+padding+border
+outerWidth（true） 元素本身宽度+padding+border+margin
+insertBefore 插dom节点到选中元素前
+before 插入内容到选中元素前
+insertAfter 插dom节点到选中元素后
+after   插入内容到选中元素后
+appendTo  添加dom节点/标签及标签内容到插入元素的末尾
+append   选中元素内末尾添加内容
+prependTo  添加dom节点/标签及标签内容到插入元素的头部
+prepend   选中元素内头部添加内容
+remove 清除dom节点
+on 可以给选中元素绑定一个或多个事件的事件处理函数
+off 可以给选中元素清除一个或多个事件的事件处理函数
+scrollTop 选中元素的滚动条位置
+ev  处理好兼容的事件对象
+ev.pageX 距离文档边缘的值
+ev.clientX  距离可视区域边缘的值
+ev.which  相当于js的keyCode值
+ev.preventDefault 阻止默认事件
+ev.stopPropagation  阻止冒泡
+return false  阻止默认事件和阻止冒泡
+one  给选中元素绑定一个一次性的事件处理函数
+ev.offset   距离屏幕边缘的距离
+ev.contextmenu 鼠标右击事件
+ev.position  找到有定位的父级元素 并且把选中元素归结为定位元素
+ev.offsetParent  找到有定位的父级元素
+val 相当于js的value
+size 相当于js的length
+each  遍历   （i，item） i是下标，item是当前元素
+get  可以让js和jq的方法混用
+     可以获取到元素的下标  index
+     可以获取到元素的长度  和length
+offsetWidth 不可以获取不占位隐藏元素的高度
+outerWidth 可以获取不占位隐藏元素的高度
+text 获取文本内容  不获取标签
+detach 保留删除的操作行为
+window.onload和$(document).ready(function(){}）和$(function(){ }) 的区别
+  window.onload只能在页面中出现一次
+       1.执行时间
+
+       window.onload必须等到页面内包括图片的所有元素加载完毕后才能执行。
+       $(document).ready()是DOM结构绘制完毕后就执行，不必等到加载完毕。
+
+       2.编写个数不同
+
+       window.onload不能同时编写多个，如果有多个window.onload方法，只会执行一个
+       $(document).ready()可以同时编写多个，并且都可以得到执行
+
+       3.简化写法
+
+       window.onload没有简化写法
+       $(document).ready(function(){})可以简写成$(function(){});
+
+hover 第一个参数为enter的函数，第二个参数leave的函数
+show 操作的display block    默认400ms
+hide 操作的display none    默认400ms
+fadeIn 操作opacity  0-1       默认400ms
+fadeOut 操作opacity 1-0       默认400ms
+fadeTo   第一个参数为时间  第二个参数为透明度
+slideDown    向下滑入
+slideUp   向上滑出
+parents 找到匹配元素的所有父级节点
+closest  必须传一个值  匹配筛选所对应得父级节点
+siblings   找到所有得兄弟节点 传入一个参数  为css选择器
+nextAll  找到后面所有的兄弟节点
+prevAll  找到前面所有的兄弟节点
+parentsUntil   筛选当前的父级元素，第一个参数是截止到的父级元素 第二个参数是要匹配的父级元素
+nextUntil  筛选到下一个的兄弟元素  第一个是截至到的Dom元素，第二个参数是匹配的元素
+prevUntil   筛选到上一个的兄弟元素  第一个是截至到的Dom元素，第二个参数是匹配的元素
+clone()   克隆匹配的DOM元素并且选中这些克隆的副本。 默认false
+clone(true) 克隆匹配的DOM元素并且选中这些克隆的副本。克隆的副本也具有本身的功能（克隆操作行为）
+add  添加标签
+slice（m，n） 开始选取子集的位置。
+    * 第一个元素是0.如果m是负数，则可以从集合的尾部开始选起。
+     n为结束选取自己的位置，如果不指定，则就是本身的结尾。不包括n
+* wrap  包装   把文档里面所有的元素包裹在对应的元素内
+     * wrapAll  所有
+     * wrapInner
+     * unWrap
